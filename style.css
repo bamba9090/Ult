@@ -1,0 +1,158 @@
+body{
+    background-color: #F9EBD3;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+header img{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    z-index: 0;
+}
+header img .gif{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.text{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+.text .happy{
+    font-family: Poppins;
+    font-size: 6vw;
+}
+.text .birthday{
+    margin-left: 8%;
+    font-family: Poppins;
+    font-size: 15vw;
+}
+.text .nama{
+    margin-top: 8%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 6vw;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+main #ribbon{
+    margin-top: -50%;
+    width: 100%;
+    height: 50%;
+}
+main .part1{
+    text-align: justify;
+    width: 68%;
+    z-index: 1;
+}
+main .pantun{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 4vw;
+    font-family: Poppins;
+}
+main .para1{
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(255, 255, 255, 0.75);
+    padding-left: 4%;
+    font-size: 3.5vw;
+    font-family: Poppins;
+}
+main #cake{
+    margin-top: -35%;
+    align-self: flex-end;
+    width: 50%;
+    height: 50%;
+    z-index: 0;
+}
+main .part2{
+    width: 60%;
+    z-index: 1;
+    display: flex;
+    align-self: flex-end;
+}
+main .para2{
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(255, 255, 255, 0.75);
+    width: auto;
+    text-align: justify;
+    font-size: 3vw;
+    font-family: Poppins;
+}
+main #baloon{
+    margin-top: -30%;
+    width: 60%;
+    height: 60%;
+    z-index: 0;
+}
+main .quotes{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+main .quotes img{
+    display: flex;
+    align-self: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+main .quotes p{
+    margin-top: 5%;
+    padding: 60px;
+    text-align: center;
+    font-family: Beau Rivage;
+    font-size: 4vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: .56vw;
+}
+footer{
+    width: 100%;
+    background: linear-gradient(0deg, #9A691E 0%, rgba(235, 173, 79, 0.81) 38.85%, rgba(217, 217, 217, 0.00) 100%);
+    margin-top: 20%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Beau Rivage' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Met Ultah</title>
+</head>
+<body>
+    <header>
+        <img src="vecteezy_golden-confetti-falling-isolated-on-transparent-background_22993675_221.png" alt="">
+        <img src="sparkle-confetti.gif" alt="" class="">
+        <div class="text">
+            <label class="happy">Happy</label>
+            <label class="birthday">Birthday!!</label>
+            <label class="nama">Marianne Wensesla Solang</label>
+        </div>
+    </header>
+    <main>
+        <img src="vecteezy_a-golden-bow-with-a-transparent-background_22130041_773.png" alt="ribbon" id="ribbon">
+        <div class="part1">
+            <p class="pantun">
+                Beli duren bareng Syahrini
+                <br> 
+                Ehh Ada yang makin tua nih!&#128538
+            </p>
+            <p class="para1">
+                Cieee! udah ultah aja di hari Selasa yang cerah. 
+                Selamat menaiki tangga kedewasaan yang penuh stress wkwk. 
+                Jangan tambah kecewa ya, Nanti jadi lagu "takut" dari Idgitaf deh wkwkwk&#128516
+            </p>
+        </div>
+        <img src="vecteezy_birthday-cake-decoration-element-illustration_13784662_547.png" alt="cake" id="cake">
+        <div class="part2">
+            <p class="para2">
+                gimana nih kerjaan anak tingkat akhir? lancar TA nya? lancar lah ya. 
+                Ngga mungkin seorang Marianne ngerjain TA nya ngga lancar. 
+                Kan dirimu pinter banget hehe. 
+                Selamat lahir kembali ya, semoga kehidupan kampusmu menyenangkan dan TA mu lancar ya. 
+                Inget juga jaga kesehatanmu sama istirahat yang cukup biar sehat selalu. 
+                wkwk udah kek mamakmu ae.
+            </p>
+        </div>
+        <img src="vecteezy_happy-birthday-illustration-labels-suitable-for-happy_13923904_343.png" alt="baloon" id="baloon">
+        <div class="quotes">
+            <img src="vecteezy_borders-and-floral-for-framed_22037757_840.png" alt="">
+            <p>
+                “Your birthday is the first day of another 365-day journey. 
+                Be the shining thread in the beautiful tapestry of the world to make this year the best ever. 
+                Enjoy the ride.”
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Ps : Boleh lah ya kritik & sarannya kalo ada.
+            <br>
+            Kirim kesini ya!
+        </p>
+        <a href="https://wa.me/6282119394429"><img src="icons8-whatsapp-100.png" alt="WhatsApp"></a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.from("#cake",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: -50,
+            y: -50
+        })
+        gsap.from("#baloon",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: 50,
+            y: -50
+        })
+    </script>
+</body>
+</html>
