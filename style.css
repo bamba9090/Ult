@@ -180,9 +180,13 @@ main .quotes p{
 }
 
 main iframe {
-    align-self: center;
-    border: none; 
+    width: 70%;
+    /* max-width: 640px; */
+    height: 60vh;         
+    border: none;
     border-radius: 20px;
+    display: block;
+    margin: 0 auto;  
 }
 
 footer{
