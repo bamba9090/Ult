@@ -182,7 +182,7 @@ main .quotes p{
 main iframe {
     align-self: center;
     border: none; 
-    border-radius: 100px;
+    border-radius: 20px;
 }
 
 footer{
